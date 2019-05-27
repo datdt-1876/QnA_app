@@ -1,0 +1,11 @@
+  <div class='nested-fields'>
+    <div class="field">
+      <%= f.label :content %>
+      <%= f.text_field :content %>
+    </div>
+    <div class="field">
+      <%= f.check_box :status %>
+      <%= f.label :status %>
+    </div>
+    <%= link_to_remove_association "remove answer", f %>
+  </div>
